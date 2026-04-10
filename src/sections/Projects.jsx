@@ -7,7 +7,7 @@ const projects = [
     title: "Fullstack MERN E-Commerce",
     description:
       "A full MERN e-commerce app with secure auth (access/refresh tokens), admin product & category management, and OTP-based email verification and password recovery, built for scalability, performance, and smooth UX.",
-    image: "/public/projects/mern.png",
+    image: "/projects/mern.png",
     tags: ["MongoDB", "Express", "React", "Node.js"],
     github: "https://github.com/memgn19/MernE-commerce",
   },
@@ -15,7 +15,7 @@ const projects = [
     title: "Asynchronous Shopping Cart",
     description:
       "An AJAX-powered PHP shopping cart for adding, updating, and removing items in real time without page reloads.",
-    image: "/public/projects/shopping-cart.png",
+    image: "/projects/shopping-cart.png",
     tags: ["Php", "Javascript", "Ajax", "MySQL"],
     github: "https://github.com/memgn19/ShoppingCart",
   },
@@ -23,7 +23,7 @@ const projects = [
     title: "Angular Task Manager",
     description:
       "Angular Task Manager App is a dynamic and responsive web application designed to help users efficiently organize and manage their daily tasks.",
-    image: "/public/projects/task-manager.gif",
+    image: "/projects/task-manager.gif",
     tags: ["Angular", "Javascript"],
     github: "https://github.com/memgn19/AngularTaskManager",
   },
@@ -31,7 +31,7 @@ const projects = [
     title: "React Weather App",
     description:
       "Weather app that delivers real-time weather updates and forecasts.",
-    image: "/public/projects/weather.gif",
+    image: "/projects/weather.gif",
     tags: ["React", "Javascript"],
     github: "https://github.com/memgn19/WeatherApp",
   },
