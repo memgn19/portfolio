@@ -35,6 +35,7 @@ const Hero = () => (
     <div className="absolute inset-0 overflow-hidden pointer-events-none">
       {[...Array(30)].map((_, i) => (
         <div
+          key={i}
           className="absolute w-1.5 h-1.5 rounded-full opacity-60 "
           style={{
             backgroundColor: "#FFCDC9",
@@ -80,7 +81,7 @@ const Hero = () => (
           </div>
 
           {/* CTAs  */}
-          <div className="flex flex-wrap gap-4 animated-fade-in animation-delay-300">
+          <div className="flex flex-wrap gap-4 animate-fade-in animation-delay-300">
             <Button size="lg">
               Contact me <ArrowRight className="h-5 w-5" />{" "}
             </Button>
@@ -101,7 +102,7 @@ const Hero = () => (
               <a
                 key={index}
                 href={social.href}
-                className="p-2 rounded-full glass hover:bg-primary-10 hover:text-primary transition-all duration-300"
+                className="p-2 rounded-full glass hover:bg-primary/10 hover:text-primary transition-all duration-300"
               >
                 {<social.icon className="w-5 h-5" />}
               </a>
@@ -113,7 +114,7 @@ const Hero = () => (
           {/* Profile image  */}
           <div className="relative max-w-md mx-auto">
             <div
-              className="aabsolute inset-0 
+              className="absolute inset-0 
               rounded-3xl bg-gradient-to-br 
               from-primary/30 via-transparent 
               to-primary/10 blur-2xl animate-pulse"
@@ -138,7 +139,7 @@ const Hero = () => (
 
               {/* Stats badge  */}
               <div className="absolute -top-4 -left-4 glass rounded-xl px-4 py-3 animate-float animation-delay-500">
-                <div className="text-2lx font-bold text-primary">1+</div>
+                <div className="text-2xl font-bold text-primary">1+</div>
                 <div className="text-xs text-gray-300">
                   Years exp.
                 </div>
