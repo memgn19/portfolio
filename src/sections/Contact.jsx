@@ -104,15 +104,14 @@ const Contact = () => {
             Get in touch
           </span>
           <h2 className="text-4xl md:text-5xl font-bold mt-4 mb-6 animate-fade-in animation-delay-100 text-secondary-foreground">
-            Let's build
+            Let’s create
             <span className="font-serif italic font-normal text-white">
               {" "}
-              something great.
+              something meaningful.
             </span>
           </h2>
           <p className="text-muted-foreground animate-fade-in animation-delay-200">
-            Have a project in mind? I'd love to hear about it. Send me a message
-            and let's discuss how we can work together.
+           If you have a project in mind, I’d be happy to hear about it and see how we can collaborate. 💗
           </p>
         </div>
 

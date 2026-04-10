@@ -23,10 +23,11 @@ const Experience = () => {
             Career Journey
           </span>
           <h2 className="text-4xl md:text-5xl font-bold mt-4 mb-6 animate-fade-in animation-delay-100 text-secondary-foreground">
-            Experience that{" "}
+            My{" "}
             <span className="font-serif italic font-normal text-white">
-              speaks volumes.
+              experience {" "}
             </span>
+             so far.
           </h2>
           <p>
             a timeline of my professional growth, where I've honed my skills and

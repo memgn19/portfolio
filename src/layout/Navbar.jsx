@@ -65,7 +65,7 @@ function Navbar() {
 
         {/* CTA Button */}
         <div className="hidden md:block">
-          <Button size="sm">Contact</Button>
+          <Button size="sm"><a href="#contact">Contact</a></Button>
         </div>
 
         {/* Mobile menu button */}

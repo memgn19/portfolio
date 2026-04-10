@@ -58,7 +58,7 @@ const Projects = () => {
           </h2>
 
           <p className="text-muted-foreground animate-fade-in animation-delay-200 ">
-            These are the last personal projects i've been working on.
+            These are the last personal projects I've been working on.
           </p>
         </div>
 
@@ -109,7 +109,7 @@ const Projects = () => {
         {/* View all  */}
         <div className="text-center mt-12 animate-fade-in animation-delay-500">
           <AnimatedBorderButton>
-            View All Projects 
+            <a href="https://github.com/memgn19">View All Projects </a>
             <ArrowUpRight className="w-5 h-5" />
           </AnimatedBorderButton>
         </div>

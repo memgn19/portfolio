@@ -41,10 +41,10 @@ const About = () => {
               </span>
             </div>
             <h2 className="text-4xl md:text-5xl font-bold leading-tight animate-fade-in animation-delay-100 text-secondary-foreground">
-              Building nice things,{" "}
+              Creating nice things,{" "}
               <span className="font-serif italic font-normal text-white">
                 {" "}
-                TERMINAR de rellenar
+                and continuously improving as a developer.
               </span>
             </h2>
 
