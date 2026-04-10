@@ -1,10 +1,10 @@
-import Navbar from "./layout/Navbar"
+import Navbar from "@/layout/Navbar"
 import Hero from "@/sections/Hero"
 import About from "@/sections/About"
 import Projects from "@/sections/Projects"
 import Contact from "@/sections/Contact"
 import Experience from "@/sections/Experience"
-import { Footer } from "./layout/Footer";
+import { Footer } from "@/layout/Footer";
 
 
 function App() {

@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { LuGavel } from "react-icons/lu";
-import Button from "../components/Button";
+import Button from "@/components/Button";
 import { Menu, X } from "lucide-react";
 
 const navLinks = [
